@@ -1,11 +1,11 @@
-from unittest.mock import patch
 import os
 import time
-from requests.models import Response
+from unittest.mock import patch
+
 from django.http import JsonResponse
-import unittest
 from django.test import Client, override_settings, TestCase
-from django.conf import settings
+from requests.models import Response
+
 from . import housecanary_client
 
 client = Client()
