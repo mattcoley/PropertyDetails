@@ -12,6 +12,11 @@ If you want to test the service without API keys you can set the following to mo
 export HOUSECANARY_MOCK_RESPONSE=True
 ```
 
+Next install the dependencies:
+```
+pip install -r requirements.txt
+```
+
 Run the server locally via
 ```
 python manage.py runserver
